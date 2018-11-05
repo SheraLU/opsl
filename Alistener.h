@@ -1,6 +1,7 @@
 #ifndef __LISTENER_H__
 #define __LISTENER_H__
-
+#include "mainwindow.h"
+#include "ui_mainwindow.h"
 #include <string>
 #include <sstream>
 #include <iostream>
@@ -18,10 +19,11 @@ public:
 	CodeData::CodeDataReader_var m_MsgReader;
 	DDS::GuardCondition_var m_guardCond;
 
-	Alistener() {
+	Alistener(MainWindow& w):window(w) {
 		m_guardCond = new DDS::GuardCondition();
 		m_closed = false;
 	}
+	MainWindow &window;
 
 	/* Callback method implementation. */
 	virtual void on_data_available(DDS::DataReader_ptr reader)

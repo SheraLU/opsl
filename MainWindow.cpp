@@ -34,7 +34,7 @@ MainWindow::MainWindow(QWidget *parent) :
 	ui->code->setStyleSheet("background-color:rgb(255,255,255)");
 	
 	/*根据节点改*/
-	ch->getfiles("node1");
+	ch->getfiles("node5");
 
 	ch->setParent(this);
     ch->move(190,115);
@@ -67,27 +67,11 @@ void MainWindow::getHistory(QString ip){
 }
 
 int MainWindow::geti()
-{/*
-	QString ips[] = { "169.254.142.196" };//输入全员ip??????????
-	QString ip;
-	QString localHostName = QHostInfo::localHostName();
-	QHostInfo info = QHostInfo::fromName(localHostName);
-	foreach(QHostAddress address, info.addresses())
-	{
-		if (address.protocol() == QAbstractSocket::IPv4Protocol) {
-			ip = address.toString();
-			break;
-		}
-	}
-	int i = 1;
-	for (; i <= 5; i++)
-		if (ips[i - 1] == ip)
-			break;
-			*/
-	QString s = "node" + QString::number(1);
+{
+	QString s = "node" + QString::number(5);
 	ui->user_ip->setText(s);
 	/*根据节点改*/
-	return 1;
+	return 5;
 }
 
 
@@ -110,32 +94,30 @@ void MainWindow::on_person_lw_itemClicked(QListWidgetItem *item)//向指定对象发送
 	auto i = Luxijun::getInstance();
 	qDebug("node is %s", qPrintable(node));
 	reusePub AtoOther;//根据person决定pub
-	if (!node.compare("node2"))
+	if (!node.compare("node1"))
 	{
-		//i->msgListB.clear();
-		AtoOther.createConnection("AB", "msgab");
-		AtoOther.pubMsg(1, "ask", "-1", "000000");//时间为-1的消息为请求
+		i->msgListB.clear();
+		AtoOther.createConnection("AE", "msgae");
+		AtoOther.pubMsg(5, "ask", "-1", "000000");//时间为-1的消息为请求
+	}
+	else if (!node.compare("node2"))
+	{
+		i->msgListC.clear();
+		AtoOther.createConnection("BE", "msgbe");
+		AtoOther.pubMsg(5, "ask", "-1", "000000");//时间为-1的消息为请求
 	}
 	else if (!node.compare("node3"))
 	{
-		i->msgListC.clear();
-		AtoOther.createConnection("AC", "msgac");
-		AtoOther.pubMsg(1, "ask", "-1", "000000");//时间为-1的消息为请求
+		i->msgListD.clear();
+		AtoOther.createConnection("CE", "msgce");
+		AtoOther.pubMsg(5, "ask", "-1", "000000");//时间为-1的消息为请求
 	}
 	else if (!node.compare("node4"))
 	{
-		i->msgListD.clear();
-		AtoOther.createConnection("AD", "msgad");
-		AtoOther.pubMsg(1, "ask", "-1", "000000");//时间为-1的消息为请求
-	}
-	else if (!node.compare("node5"))
-	{
 		i->msgListE.clear();
-		AtoOther.createConnection("AE", "msgae");
-		AtoOther.pubMsg(1, "ask", "-1", "000000");//时间为-1的消息为请求
+		AtoOther.createConnection("DE", "msgde");
+		AtoOther.pubMsg(5, "ask", "-1", "000000");//时间为-1的消息为请求
 	}
-	else
-		AtoOther.createConnection("AB", "msgab");
 	qDebug("Pub Access");
 	AtoOther.endDelete();
 	qDebug("PubDelete ShowHistory");

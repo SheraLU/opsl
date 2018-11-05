@@ -1,0 +1,478 @@
+========================================================================================
+Report      : ERROR
+Date        : Fri Nov 02 17:21:40 ?D1迆㊣那℅?那㊣?? 2018
+Description : Splice-daemon failed to renew its lease within the configured lease expiry-time (10.000000000). The lease renewal took 17.931016400 s.
+Node        : SC-201609211054
+Process     : CodeManager.exe <21512>
+Thread      : OSPL Lease Renew Thread 21648
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/spliced.c/170/0/1541150500.009185600/0
+========================================================================================
+Report      : ERROR
+Date        : Fri Nov 02 17:21:40 ?D1迆㊣那℅?那㊣?? 2018
+Description : Unknown service 'splicedaemon' died
+Node        : SC-201609211054
+Process     : CodeManager.exe <21512>
+Thread      : ServiceManager 21596
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/serviceMonitor.c/73/0/1541150500.009194200/0
+========================================================================================
+Report      : ERROR
+Date        : Fri Nov 02 17:21:40 ?D1迆㊣那℅?那㊣?? 2018
+Description : Unknown service 'splicedaemon' died
+Node        : SC-201609211054
+Process     : CodeManager.exe <21512>
+Thread      : ServiceManager 21596
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/serviceMonitor.c/73/0/1541150500.012430500/0
+========================================================================================
+Report      : ERROR
+Date        : Fri Nov 02 17:34:42 ?D1迆㊣那℅?那㊣?? 2018
+Description : Splice-daemon failed to renew its lease within the configured lease expiry-time (10.000000000). The lease renewal took 11.271266200 s.
+Node        : SC-201609211054
+Process     : CodeManager.exe <32572>
+Thread      : OSPL Lease Renew Thread 32640
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/spliced.c/170/0/1541151282.946337600/0
+========================================================================================
+Report      : ERROR
+Date        : Fri Nov 02 17:34:42 ?D1迆㊣那℅?那㊣?? 2018
+Description : Unknown service 'splicedaemon' died
+Node        : SC-201609211054
+Process     : CodeManager.exe <32572>
+Thread      : ServiceManager 13164
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/serviceMonitor.c/73/0/1541151282.946434500/0
+========================================================================================
+Report      : ERROR
+Date        : Fri Nov 02 17:34:42 ?D1迆㊣那℅?那㊣?? 2018
+Description : Unknown service 'splicedaemon' died
+Node        : SC-201609211054
+Process     : CodeManager.exe <32572>
+Thread      : ServiceManager 13164
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/serviceMonitor.c/73/0/1541151282.948455100/0
+========================================================================================
+Report      : ERROR
+Date        : Sat Nov 03 13:21:43 ?D1迆㊣那℅?那㊣?? 2018
+Description : Splice-daemon failed to renew its lease within the configured lease expiry-time (10.000000000). The lease renewal took 18.339826100 s.
+Node        : SC-201609211054
+Process     : CodeManager.exe <2828>
+Thread      : OSPL Lease Renew Thread 33740
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/spliced.c/170/0/1541222503.972291600/0
+========================================================================================
+Report      : ERROR
+Date        : Sat Nov 03 13:21:54 ?D1迆㊣那℅?那㊣?? 2018
+Description : Unknown service 'splicedaemon' died
+Node        : SC-201609211054
+Process     : CodeManager.exe <2828>
+Thread      : ServiceManager 30440
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/serviceMonitor.c/73/0/1541222514.487337000/0
+========================================================================================
+Report      : ERROR
+Date        : Sat Nov 03 13:27:43 ?D1迆㊣那℅?那㊣?? 2018
+Description : Thread deadlocked:  "OSPL Lease Renew Thread":d:5->5
+Node        : SC-201609211054
+Process     : CodeManager.exe <29056>
+Thread      : threadsWatchdog 33492
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/threadsWatchdog/s_threadsMonitor.c/207/0/1541222863.697714400/-1
+========================================================================================
+Report      : ERROR
+Date        : Sat Nov 03 13:27:43 ?D1迆㊣那℅?那㊣?? 2018
+Description : Splice-daemon failed to renew its lease within the configured lease expiry-time (10.000000000). The lease renewal took 23.607396600 s.
+Node        : SC-201609211054
+Process     : CodeManager.exe <29056>
+Thread      : OSPL Lease Renew Thread 12444
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/spliced.c/170/0/1541222863.698187300/0
+========================================================================================
+Report      : ERROR
+Date        : Sat Nov 03 13:30:21 ?D1迆㊣那℅?那㊣?? 2018
+Description : Splice-daemon failed to renew its lease within the configured lease expiry-time (10.000000000). The lease renewal took 10.612523100 s.
+Node        : SC-201609211054
+Process     : CodeManager.exe <32440>
+Thread      : OSPL Lease Renew Thread 18264
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/spliced.c/170/0/1541223021.764309000/0
+========================================================================================
+Report      : ERROR
+Date        : Sat Nov 03 13:30:21 ?D1迆㊣那℅?那㊣?? 2018
+Description : Unknown service 'splicedaemon' died
+Node        : SC-201609211054
+Process     : CodeManager.exe <32440>
+Thread      : ServiceManager 18756
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/serviceMonitor.c/73/0/1541223021.764358300/0
+========================================================================================
+Report      : ERROR
+Date        : Sat Nov 03 13:30:21 ?D1迆㊣那℅?那㊣?? 2018
+Description : Unknown service 'splicedaemon' died
+Node        : SC-201609211054
+Process     : CodeManager.exe <32440>
+Thread      : ServiceManager 18756
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/serviceMonitor.c/73/0/1541223021.766526400/0
+========================================================================================
+Report      : ERROR
+Date        : Sat Nov 03 13:30:21 ?D1迆㊣那℅?那㊣?? 2018
+Description : Unknown service 'splicedaemon' died
+Node        : SC-201609211054
+Process     : CodeManager.exe <32440>
+Thread      : ServiceManager 18756
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/serviceMonitor.c/73/0/1541223021.787076400/0
+========================================================================================
+Report      : ERROR
+Date        : Sat Nov 03 13:35:45 ?D1迆㊣那℅?那㊣?? 2018
+Description : Thread deadlocked:  "OSPL Lease Renew Thread":d:5->5
+Node        : SC-201609211054
+Process     : CodeManager.exe <27540>
+Thread      : threadsWatchdog 29236
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/threadsWatchdog/s_threadsMonitor.c/207/0/1541223345.804068100/-1
+========================================================================================
+Report      : ERROR
+Date        : Sat Nov 03 13:35:45 ?D1迆㊣那℅?那㊣?? 2018
+Description : Splice-daemon failed to renew its lease within the configured lease expiry-time (10.000000000). The lease renewal took 42.304580100 s.
+Node        : SC-201609211054
+Process     : CodeManager.exe <27540>
+Thread      : OSPL Lease Renew Thread 10476
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/spliced.c/170/0/1541223345.805357200/0
+========================================================================================
+Report      : ERROR
+Date        : Sat Nov 03 13:35:45 ?D1迆㊣那℅?那㊣?? 2018
+Description : Unknown service 'splicedaemon' died
+Node        : SC-201609211054
+Process     : CodeManager.exe <27540>
+Thread      : ServiceManager 28584
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/serviceMonitor.c/73/0/1541223345.805971000/0
+========================================================================================
+Report      : ERROR
+Date        : Sat Nov 03 13:35:45 ?D1迆㊣那℅?那㊣?? 2018
+Description : Unknown service 'splicedaemon' died
+Node        : SC-201609211054
+Process     : CodeManager.exe <27540>
+Thread      : ServiceManager 28584
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/serviceMonitor.c/73/0/1541223345.808420800/0
+========================================================================================
+Report      : ERROR
+Date        : Sat Nov 03 13:35:45 ?D1迆㊣那℅?那㊣?? 2018
+Description : Failed to update service state to 4.
+Node        : SC-201609211054
+Process     : CodeManager.exe <27540>
+Thread      : spliced 24968
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/spliced.c/1393/0/1541223345.808775500/0
+========================================================================================
+Report      : ERROR
+Date        : Sat Nov 03 13:35:45 ?D1迆㊣那℅?那㊣?? 2018
+Description : Unknown service 'splicedaemon' died
+Node        : SC-201609211054
+Process     : CodeManager.exe <27540>
+Thread      : ServiceManager 28584
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/serviceMonitor.c/73/0/1541223345.810394300/0
+========================================================================================
+Report      : ERROR
+Date        : Sat Nov 03 13:35:45 ?D1迆㊣那℅?那㊣?? 2018
+Description : Unknown service 'splicedaemon' died
+Node        : SC-201609211054
+Process     : CodeManager.exe <27540>
+Thread      : ServiceManager 28584
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/serviceMonitor.c/73/0/1541223345.832670700/0
+========================================================================================
+Context     : DDS::OpenSplice::Subscriber::delete_datareader
+Date        : Sat Nov 03 13:47:34 ?D1迆㊣那℅?那㊣?? 2018
+Node        : SC-201609211054
+Process     : CodeManager.exe <5604>
+Thread      : 29488
+Internals   : Subscriber.cpp/340/6.7.180404OSS/de8c6f4f/de8c6f4f/0
+----------------------------------------------------------------------------------------
+Report      : Precondition not met: DataReader reader <msg> still contains non returned loans.
+Internals   : DDS::OpenSplice::FooDataReader_impl::wlReq_deinit/FooDataReader_impl.cpp/246/4/1541224054.983566100
+========================================================================================
+Context     : DDS::OpenSplice::Subscriber::delete_datareader
+Date        : Sat Nov 03 13:51:59 ?D1迆㊣那℅?那㊣?? 2018
+Node        : SC-201609211054
+Process     : CodeManager.exe <2212>
+Thread      : 25056
+Internals   : Subscriber.cpp/340/6.7.180404OSS/de8c6f4f/de8c6f4f/0
+----------------------------------------------------------------------------------------
+Report      : Precondition not met: DataReader reader <msg> still contains non returned loans.
+Internals   : DDS::OpenSplice::FooDataReader_impl::wlReq_deinit/FooDataReader_impl.cpp/246/4/1541224319.102437900
+========================================================================================
+Report      : ERROR
+Date        : Sat Nov 03 13:58:53 ?D1迆㊣那℅?那㊣?? 2018
+Description : Splice-daemon failed to renew its lease within the configured lease expiry-time (10.000000000). The lease renewal took 11.423465100 s.
+Node        : SC-201609211054
+Process     : CodeManager.exe <15016>
+Thread      : OSPL Lease Renew Thread 21376
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/spliced.c/170/0/1541224733.833626400/0
+========================================================================================
+Report      : ERROR
+Date        : Sat Nov 03 13:58:53 ?D1迆㊣那℅?那㊣?? 2018
+Description : Unknown service 'splicedaemon' died
+Node        : SC-201609211054
+Process     : CodeManager.exe <15016>
+Thread      : ServiceManager 27100
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/serviceMonitor.c/73/0/1541224733.836230900/0
+========================================================================================
+Report      : ERROR
+Date        : Sat Nov 03 13:58:53 ?D1迆㊣那℅?那㊣?? 2018
+Description : Unknown service 'splicedaemon' died
+Node        : SC-201609211054
+Process     : CodeManager.exe <15016>
+Thread      : ServiceManager 27100
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/serviceMonitor.c/73/0/1541224733.838436400/0
+========================================================================================
+Report      : ERROR
+Date        : Sat Nov 03 13:58:53 ?D1迆㊣那℅?那㊣?? 2018
+Description : Unknown service 'splicedaemon' died
+Node        : SC-201609211054
+Process     : CodeManager.exe <15016>
+Thread      : ServiceManager 27100
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/serviceMonitor.c/73/0/1541224733.861088800/0
+========================================================================================
+Context     : DDS::OpenSplice::Subscriber::delete_datareader
+Date        : Sat Nov 03 13:59:59 ?D1迆㊣那℅?那㊣?? 2018
+Node        : SC-201609211054
+Process     : CodeManager.exe <33380>
+Thread      : 14876
+Internals   : Subscriber.cpp/340/6.7.180404OSS/de8c6f4f/de8c6f4f/0
+----------------------------------------------------------------------------------------
+Report      : Precondition not met: DataReader reader <msg> still contains non returned loans.
+Internals   : DDS::OpenSplice::FooDataReader_impl::wlReq_deinit/FooDataReader_impl.cpp/246/4/1541224799.905933500
+========================================================================================
+Report      : ERROR
+Date        : Sat Nov 03 15:56:48 ?D1迆㊣那℅?那㊣?? 2018
+Description : Splice-daemon failed to renew its lease within the configured lease expiry-time (10.000000000). The lease renewal took 95.462145800 s.
+Node        : SC-201609211054
+Process     : CodeManager.exe <29412>
+Thread      : OSPL Lease Renew Thread 33456
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/spliced.c/170/0/1541231808.245948800/0
+========================================================================================
+Report      : ERROR
+Date        : Sat Nov 03 15:56:48 ?D1迆㊣那℅?那㊣?? 2018
+Description : Unknown service 'splicedaemon' died
+Node        : SC-201609211054
+Process     : CodeManager.exe <29412>
+Thread      : ServiceManager 28584
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/serviceMonitor.c/73/0/1541231808.245962300/0
+========================================================================================
+Report      : ERROR
+Date        : Sat Nov 03 15:56:48 ?D1迆㊣那℅?那㊣?? 2018
+Description : Unknown service 'splicedaemon' died
+Node        : SC-201609211054
+Process     : CodeManager.exe <29412>
+Thread      : ServiceManager 28584
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/serviceMonitor.c/73/0/1541231808.248584100/0
+========================================================================================
+Report      : ERROR
+Date        : Sat Nov 03 15:56:48 ?D1迆㊣那℅?那㊣?? 2018
+Description : Unknown service 'splicedaemon' died
+Node        : SC-201609211054
+Process     : CodeManager.exe <29412>
+Thread      : ServiceManager 28584
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/serviceMonitor.c/73/0/1541231808.265977500/0
+========================================================================================
+Report      : ERROR
+Date        : Sat Nov 03 17:30:23 ?D1迆㊣那℅?那㊣?? 2018
+Description : Splice-daemon failed to renew its lease within the configured lease expiry-time (10.000000000). The lease renewal took 11.177204200 s.
+Node        : SC-201609211054
+Process     : CodeManager.exe <35020>
+Thread      : OSPL Lease Renew Thread 7436
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/spliced.c/170/0/1541237423.431618500/0
+========================================================================================
+Report      : ERROR
+Date        : Sat Nov 03 17:31:38 ?D1迆㊣那℅?那㊣?? 2018
+Description : Splice-daemon failed to renew its lease within the configured lease expiry-time (10.000000000). The lease renewal took 11.718808800 s.
+Node        : SC-201609211054
+Process     : CodeManager.exe <34116>
+Thread      : OSPL Lease Renew Thread 22600
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/spliced.c/170/0/1541237498.879359000/0
+========================================================================================
+Report      : ERROR
+Date        : Sat Nov 03 17:31:38 ?D1迆㊣那℅?那㊣?? 2018
+Description : Unknown service 'splicedaemon' died
+Node        : SC-201609211054
+Process     : CodeManager.exe <34116>
+Thread      : ServiceManager 12452
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/serviceMonitor.c/73/0/1541237498.881869600/0
+========================================================================================
+Report      : ERROR
+Date        : Sat Nov 03 17:31:38 ?D1迆㊣那℅?那㊣?? 2018
+Description : Unknown service 'splicedaemon' died
+Node        : SC-201609211054
+Process     : CodeManager.exe <34116>
+Thread      : ServiceManager 12452
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/serviceMonitor.c/73/0/1541237498.883621700/0
+========================================================================================
+Report      : ERROR
+Date        : Sat Nov 03 17:31:38 ?D1迆㊣那℅?那㊣?? 2018
+Description : Unknown service 'splicedaemon' died
+Node        : SC-201609211054
+Process     : CodeManager.exe <34116>
+Thread      : ServiceManager 12452
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/serviceMonitor.c/73/0/1541237498.906562400/0
+========================================================================================
+Report      : ERROR
+Date        : Sat Nov 03 17:33:59 ?D1迆㊣那℅?那㊣?? 2018
+Description : Splice-daemon failed to renew its lease within the configured lease expiry-time (10.000000000). The lease renewal took 12.348177500 s.
+Node        : SC-201609211054
+Process     : CodeManager.exe <19760>
+Thread      : OSPL Lease Renew Thread 35728
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/spliced.c/170/0/1541237639.838449900/0
+========================================================================================
+Report      : ERROR
+Date        : Sat Nov 03 17:33:59 ?D1迆㊣那℅?那㊣?? 2018
+Description : Unknown service 'splicedaemon' died
+Node        : SC-201609211054
+Process     : CodeManager.exe <19760>
+Thread      : ServiceManager 35696
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/serviceMonitor.c/73/0/1541237639.838495400/0
+========================================================================================
+Report      : ERROR
+Date        : Sat Nov 03 17:33:59 ?D1迆㊣那℅?那㊣?? 2018
+Description : Unknown service 'splicedaemon' died
+Node        : SC-201609211054
+Process     : CodeManager.exe <19760>
+Thread      : ServiceManager 35696
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/serviceMonitor.c/73/0/1541237639.841357800/0
+========================================================================================
+Report      : ERROR
+Date        : Sat Nov 03 17:33:59 ?D1迆㊣那℅?那㊣?? 2018
+Description : Unknown service 'splicedaemon' died
+Node        : SC-201609211054
+Process     : CodeManager.exe <19760>
+Thread      : ServiceManager 35696
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/serviceMonitor.c/73/0/1541237639.860400700/0
+========================================================================================
+Report      : ERROR
+Date        : Sat Nov 03 17:38:14 ?D1迆㊣那℅?那㊣?? 2018
+Description : Splice-daemon failed to renew its lease within the configured lease expiry-time (10.000000000). The lease renewal took 12.130504300 s.
+Node        : SC-201609211054
+Process     : CodeManager.exe <32368>
+Thread      : OSPL Lease Renew Thread 20760
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/spliced.c/170/0/1541237894.159849900/0
+========================================================================================
+Report      : ERROR
+Date        : Sat Nov 03 17:38:14 ?D1迆㊣那℅?那㊣?? 2018
+Description : Unknown service 'splicedaemon' died
+Node        : SC-201609211054
+Process     : CodeManager.exe <32368>
+Thread      : ServiceManager 35164
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/serviceMonitor.c/73/0/1541237894.159896700/0
+========================================================================================
+Report      : ERROR
+Date        : Sat Nov 03 17:38:14 ?D1迆㊣那℅?那㊣?? 2018
+Description : Unknown service 'splicedaemon' died
+Node        : SC-201609211054
+Process     : CodeManager.exe <32368>
+Thread      : ServiceManager 35164
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/serviceMonitor.c/73/0/1541237894.162358300/0
+========================================================================================
+Report      : ERROR
+Date        : Sat Nov 03 17:38:14 ?D1迆㊣那℅?那㊣?? 2018
+Description : Unknown service 'splicedaemon' died
+Node        : SC-201609211054
+Process     : CodeManager.exe <32368>
+Thread      : ServiceManager 35164
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/serviceMonitor.c/73/0/1541237894.179349300/0
+========================================================================================
+Report      : ERROR
+Date        : Sun Nov 04 16:36:03 ?D1迆㊣那℅?那㊣?? 2018
+Description : Splice-daemon failed to renew its lease within the configured lease expiry-time (10.000000000). The lease renewal took 12.034107900 s.
+Node        : SC-201609211054
+Process     : CodeManager.exe <14312>
+Thread      : OSPL Lease Renew Thread 23344
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/spliced.c/170/0/1541320563.984319800/0
+========================================================================================
+Report      : ERROR
+Date        : Sun Nov 04 16:36:03 ?D1迆㊣那℅?那㊣?? 2018
+Description : Unknown service 'splicedaemon' died
+Node        : SC-201609211054
+Process     : CodeManager.exe <14312>
+Thread      : ServiceManager 34112
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/serviceMonitor.c/73/0/1541320563.984317400/0
+========================================================================================
+Report      : ERROR
+Date        : Sun Nov 04 16:36:03 ?D1迆㊣那℅?那㊣?? 2018
+Description : Unknown service 'splicedaemon' died
+Node        : SC-201609211054
+Process     : CodeManager.exe <14312>
+Thread      : ServiceManager 34112
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/serviceMonitor.c/73/0/1541320563.985230900/0
+========================================================================================
+Report      : ERROR
+Date        : Sun Nov 04 19:29:35 ?D1迆㊣那℅?那㊣?? 2018
+Description : Splice-daemon failed to renew its lease within the configured lease expiry-time (10.000000000). The lease renewal took 11.580379600 s.
+Node        : SC-201609211054
+Process     : CodeManager.exe <35244>
+Thread      : OSPL Lease Renew Thread 22416
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/spliced.c/170/0/1541330975.700231900/0
+========================================================================================
+Report      : ERROR
+Date        : Sun Nov 04 19:29:35 ?D1迆㊣那℅?那㊣?? 2018
+Description : Unknown service 'splicedaemon' died
+Node        : SC-201609211054
+Process     : CodeManager.exe <35244>
+Thread      : ServiceManager 27840
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/serviceMonitor.c/73/0/1541330975.700204300/0
+========================================================================================
+Report      : ERROR
+Date        : Sun Nov 04 19:29:35 ?D1迆㊣那℅?那㊣?? 2018
+Description : Unknown service 'splicedaemon' died
+Node        : SC-201609211054
+Process     : CodeManager.exe <35244>
+Thread      : ServiceManager 27840
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/serviceMonitor.c/73/0/1541330975.700970400/0
+========================================================================================
+Report      : ERROR
+Date        : Sun Nov 04 19:29:35 ?D1迆㊣那℅?那㊣?? 2018
+Description : Unknown service 'splicedaemon' died
+Node        : SC-201609211054
+Process     : CodeManager.exe <35244>
+Thread      : ServiceManager 27840
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/serviceMonitor.c/73/0/1541330975.707285400/0
+========================================================================================
+Report      : ERROR
+Date        : Sun Nov 04 19:31:32 ?D1迆㊣那℅?那㊣?? 2018
+Description : Splice-daemon failed to renew its lease within the configured lease expiry-time (10.000000000). The lease renewal took 11.315034300 s.
+Node        : SC-201609211054
+Process     : CodeManager.exe <40612>
+Thread      : OSPL Lease Renew Thread 40704
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/spliced.c/170/0/1541331092.270364200/0
+========================================================================================
+Report      : ERROR
+Date        : Sun Nov 04 19:31:32 ?D1迆㊣那℅?那㊣?? 2018
+Description : Unknown service 'splicedaemon' died
+Node        : SC-201609211054
+Process     : CodeManager.exe <40612>
+Thread      : ServiceManager 3536
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/serviceMonitor.c/73/0/1541331092.270442200/0
+========================================================================================
+Report      : ERROR
+Date        : Sun Nov 04 19:31:32 ?D1迆㊣那℅?那㊣?? 2018
+Description : Unknown service 'splicedaemon' died
+Node        : SC-201609211054
+Process     : CodeManager.exe <40612>
+Thread      : ServiceManager 3536
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/serviceMonitor.c/73/0/1541331092.270987000/0
+========================================================================================
+Report      : ERROR
+Date        : Sun Nov 04 19:31:32 ?D1迆㊣那℅?那㊣?? 2018
+Description : Unknown service 'splicedaemon' died
+Node        : SC-201609211054
+Process     : CodeManager.exe <40612>
+Thread      : ServiceManager 3536
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/serviceMonitor.c/73/0/1541331092.278091100/0
+========================================================================================
+Report      : ERROR
+Date        : Sun Nov 04 23:57:47 ?D1迆㊣那℅?那㊣?? 2018
+Description : Splice-daemon failed to renew its lease within the configured lease expiry-time (10.000000000). The lease renewal took 20.469817300 s.
+Node        : SC-201609211054
+Process     : CodeManager.exe <17264>
+Thread      : OSPL Lease Renew Thread 35092
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/spliced.c/170/0/1541347067.856155300/0
+========================================================================================
+Report      : ERROR
+Date        : Sun Nov 04 23:57:47 ?D1迆㊣那℅?那㊣?? 2018
+Description : Unknown service 'splicedaemon' died
+Node        : SC-201609211054
+Process     : CodeManager.exe <17264>
+Thread      : ServiceManager 22568
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/serviceMonitor.c/73/0/1541347067.856238200/0
+========================================================================================
+Report      : ERROR
+Date        : Sun Nov 04 23:57:47 ?D1迆㊣那℅?那㊣?? 2018
+Description : Unknown service 'splicedaemon' died
+Node        : SC-201609211054
+Process     : CodeManager.exe <17264>
+Thread      : ServiceManager 22568
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/serviceMonitor.c/73/0/1541347067.858654600/0

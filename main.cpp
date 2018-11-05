@@ -16,14 +16,14 @@ int main(int argc, char *argv[])
 
 	auto i = Luxijun::getInstance();
 	/*根据节点号改*/
-	i->BtoA.createConnection("AB", "msgab");
-	i->CtoA.createConnection("AC", "msgac");
-	i->DtoA.createConnection("AD", "msgad");
-	i->EtoA.createConnection("AE", "msgae");
+	i->BtoA.createConnection("AE", "msgae");
+	i->CtoA.createConnection("BE", "msgbe");
+	i->DtoA.createConnection("CE", "msgce");
+	i->EtoA.createConnection("DE", "msgde");
 	DataReader_var Breader = i->BtoA.mgr.getReader(), Creader = i->CtoA.mgr.getReader(),
 		Dreader = i->DtoA.mgr.getReader(), Ereader = i->EtoA.mgr.getReader();
-	Alistener *BListener = new Alistener(), *CListener = new Alistener(),
-		*DListener = new Alistener(),*EListener = new Alistener();
+	Alistener *BListener = new Alistener(w), *CListener = new Alistener(w),
+		*DListener = new Alistener(w),*EListener = new Alistener(w);
 	BListener->m_MsgReader = CodeDataReader::_narrow(Breader.in());
 	CListener->m_MsgReader = CodeDataReader::_narrow(Creader.in());
 	DListener->m_MsgReader = CodeDataReader::_narrow(Dreader.in());
