@@ -79,6 +79,7 @@ int MainWindow::geti()
 void MainWindow::on_team_clicked()
 {
     ui->stackedWidget->setCurrentIndex(1);
+	ch->getfiles("node5");
     ch->show();
 }
 
