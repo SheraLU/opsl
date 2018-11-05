@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/MainWindow">
+        <file>Resources/cp_off.png</file>
+        <file>Resources/cp_on.png</file>
+        <file>Resources/user.png</file>
+        <file>Resources/user1.png</file>
+    </qresource>
+</RCC>
