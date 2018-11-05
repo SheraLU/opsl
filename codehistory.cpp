@@ -16,7 +16,7 @@ CodeHistory::CodeHistory(QWidget *parent,QString person_ip) :
     ui->setupUi(this);
 	flag = 0;
 	/*根据节点改变*/
-	getfiles("node5");
+	getfiles("node2");
 
     setWindowFlags(Qt::CustomizeWindowHint|Qt::FramelessWindowHint);hide();
     this->setAttribute(Qt::WA_StyledBackground,true);
@@ -33,16 +33,16 @@ CodeHistory::~CodeHistory()
 //根据消息队列设置
 void CodeHistory::on_uptime_itemClicked(QListWidgetItem *item)
 {
-	qDebug() << item->text().toStdString().c_str();
-	if (item->text().compare("NULL")==0)
+	qDebug("%s", item->text());
+	if (item->text().compare("NULL") == 0)
 		ui->code->setText("暂无数据");
 	else
 	{
-		if (flag) 
+		if (flag)
 		{
 			string word;
 			fstream filein;
-			filein.open(".\\code\\"+item->text().toStdString(), ios::in);
+			filein.open(".\\code\\" + item->text().toStdString(), ios::in);
 			filein >> word;
 			ui->code->setText(QString::fromStdString(word));
 			//ui->code->setText("导入失败");
@@ -78,7 +78,6 @@ void getFiles(string path, vector<string>& files)
 		while(1) {
 			// 保存文件的全路径
 			files.push_back(p.assign(fileinfo.name));
-			qDebug("%s",fileinfo.name);
 			if (_findnext(hFile, &fileinfo))
 				break;
 		} //寻找下一个，成功返回0，否则-1
@@ -95,12 +94,13 @@ void CodeHistory::getfiles(QString ip){
 	QString time;
 	auto i = Luxijun::getInstance();
 	qDebug("getFiles %s", qPrintable(ip));
-	if (ip.compare("node5") == 0)
+	if (ip.compare("node2") == 0)
 	{
+
 		flag = 1;
 		vector<string> fs;
-		/*本机地址*/
-		getFiles("D:\\materials\\TISHE\\HDE\\x86_64.win64\\opslTest\\CodeManagerTest\\node5\\code", fs);
+		/*本地路径*/
+		getFiles("D:\\materials\\TISHE\\HDE\\x86_64.win64\\opslTest\\CodeManagerTest\\node2\\code", fs);
 		char str[100];
 		int size = fs.size();
 		for (int i = 0; i < size; i++)
@@ -111,17 +111,17 @@ void CodeHistory::getfiles(QString ip){
 		history =i->msgListB;
 		cout << "Bsize:" << i->msgListB.size() << endl;
 	}
-	else if (ip.compare("node2") == 0)
+	else if (ip.compare("node3") == 0)
 	{
 		history = i->msgListC;
 		cout << "Csize:" << i->msgListC.size() << endl;
 	}
-	else if (ip.compare("node3") == 0)
+	else if (ip.compare("node4") == 0)
 	{
 		history = i->msgListD;
 		cout << "Dsize:" << i->msgListD.size() << endl;
 	}
-	else if (ip.compare("node4") == 0)
+	else if (ip.compare("node5") == 0)
 	{
 		history = i->msgListE;
 		cout << "Esize:" << i->msgListE.size() << endl;
@@ -129,7 +129,7 @@ void CodeHistory::getfiles(QString ip){
 	for (int k = 0; k < 10; k++)
 	{
 		if (k >= history.size())  break;
-		time = history[history.size()-k-1].fileName;
+		time = history[k].fileName;
 		times.append(time);
 	}
 	if (times.empty())
