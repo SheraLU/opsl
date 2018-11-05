@@ -46,21 +46,20 @@ THROW_ORB_EXCEPTIONS
 		if (time.compare("-1") == 0)//收到请求【设定时间为-1的消息为请求】
 		{
 			reusePub ASendCode;
-			if (msgList[j].coderID < 6&& msgList[j].coderID > 4)
+			if (msgList[j].coderID < 4&&msgList[j].coderID > 2)
 				cout << "当前节点" << endl;
 			else 
 			{
 				if (msgList[j].coderID <2 )//默认当前节点为1，后续根据用户更改
-					ASendCode.createConnection("AE", "msgae");
+					ASendCode.createConnection("AC", "msgac");
 				else if (msgList[j].coderID <3)
-					ASendCode.createConnection("BE", "msgbe");
-				else if (msgList[j].coderID <4)
-					ASendCode.createConnection("CE", "msgce");
+					ASendCode.createConnection("BC", "msgbc");
 				else if (msgList[j].coderID <5)
-					ASendCode.createConnection("DE", "msgde");
+					ASendCode.createConnection("CD", "msgcd");
+				else if (msgList[j].coderID <6)
+					ASendCode.createConnection("CE", "msgce");
 				vector<string> fs;
-				/*本机地址*/
-				getAllFiles("D:\\materials\\TISHE\\HDE\\x86_64.win64\\opslTest\\CodeManagerTest\\node5\\code", fs);
+				getAllFiles("D:\\materials\\TISHE\\HDE\\x86_64.win64\\opslTest\\CodeManagerTest\\node3\\code", fs);
 				char str[100];
 				int size = fs.size();
 				for (int i = 0; i < size; i++)
@@ -69,14 +68,14 @@ THROW_ORB_EXCEPTIONS
 					fstream filein;
 					filein.open(".\\code\\" + fs[i], ios::in);
 					filein >> word;
-					ASendCode.pubMsg(5,fs[i].data(), "time", word.data());//发送本地代码
+					ASendCode.pubMsg(3,fs[i].data(), "time", word.data());//发送本地代码
 				}
 				ASendCode.endDelete();
 			}
 		}
 		else//收到代码
 		{
-			if(msgList[j].coderID < 6 && msgList[j].coderID > 4)
+			if(msgList[j].coderID < 4 && msgList[j].coderID > 2)
 				cout << "当前节点" << endl;
 			else
 			{
@@ -84,9 +83,9 @@ THROW_ORB_EXCEPTIONS
 					i->msgListB.push_back(msgList[j]);
 				else if (id < 3)//2
 					i->msgListC.push_back(msgList[j]);
-				else if (id < 4)//3
-					i->msgListD.push_back(msgList[j]);
 				else if (id < 5)//4
+					i->msgListD.push_back(msgList[j]);
+				else if (id < 6)//5
 					i->msgListE.push_back(msgList[j]);
 				else
 					cout << "Wrong Puber" << endl;
