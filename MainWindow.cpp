@@ -34,7 +34,7 @@ MainWindow::MainWindow(QWidget *parent) :
 	ui->code->setStyleSheet("background-color:rgb(255,255,255)");
 	
 	/*根据节点改*/
-	ch->getfiles("node5");
+	ch->getfiles("node2");
 
 	ch->setParent(this);
     ch->move(190,115);
@@ -68,10 +68,10 @@ void MainWindow::getHistory(QString ip){
 
 int MainWindow::geti()
 {
-	QString s = "node" + QString::number(5);
+	QString s = "node" + QString::number(2);
 	ui->user_ip->setText(s);
 	/*根据节点改*/
-	return 5;
+	return 2;
 }
 
 
@@ -79,6 +79,7 @@ int MainWindow::geti()
 void MainWindow::on_team_clicked()
 {
     ui->stackedWidget->setCurrentIndex(1);
+	ch->getfiles("node2");
     ch->show();
 }
 
@@ -97,27 +98,29 @@ void MainWindow::on_person_lw_itemClicked(QListWidgetItem *item)//向指定对象发送
 	if (!node.compare("node1"))
 	{
 		i->msgListB.clear();
-		AtoOther.createConnection("AE", "msgae");
-		AtoOther.pubMsg(5, "ask", "-1", "000000");//时间为-1的消息为请求
-	}
-	else if (!node.compare("node2"))
-	{
-		i->msgListC.clear();
-		AtoOther.createConnection("BE", "msgbe");
-		AtoOther.pubMsg(5, "ask", "-1", "000000");//时间为-1的消息为请求
+		AtoOther.createConnection("AB", "msgab");
+		AtoOther.pubMsg(2, "ask", "-1", "000000");//时间为-1的消息为请求
 	}
 	else if (!node.compare("node3"))
 	{
-		i->msgListD.clear();
-		AtoOther.createConnection("CE", "msgce");
-		AtoOther.pubMsg(5, "ask", "-1", "000000");//时间为-1的消息为请求
+		i->msgListC.clear();
+		AtoOther.createConnection("BC", "msgbc");
+		AtoOther.pubMsg(2, "ask", "-1", "000000");//时间为-1的消息为请求
 	}
 	else if (!node.compare("node4"))
 	{
-		i->msgListE.clear();
-		AtoOther.createConnection("DE", "msgde");
-		AtoOther.pubMsg(5, "ask", "-1", "000000");//时间为-1的消息为请求
+		i->msgListD.clear();
+		AtoOther.createConnection("BD", "msgbd");
+		AtoOther.pubMsg(2, "ask", "-1", "000000");//时间为-1的消息为请求
 	}
+	else if (!node.compare("node5"))
+	{
+		i->msgListE.clear();
+		AtoOther.createConnection("BE", "msgbe");
+		AtoOther.pubMsg(2, "ask", "-1", "000000");//时间为-1的消息为请求
+	}
+	else
+		qDebug("wrong ask");
 	qDebug("Pub Access");
 	AtoOther.endDelete();
 	qDebug("PubDelete ShowHistory");
