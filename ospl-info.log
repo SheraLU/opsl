@@ -9612,7 +9612,7 @@ Thread      : OSPL Garbage Collector 26424
 Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/v_spliced/v_spliced.c/2380/769/1541351328.342898600/0
 ========================================================================================
 Report      : INFO
-Date        : Mon Nov 05 13:40:54 ?D1迆㊣那℅?那㊣?? 2018
+Date        : Mon Nov 05 13:42:35 ?D1迆㊣那℅?那㊣?? 2018
 Description : ---------------------------------------------------------------
               -- The service is using the following configuration settings --
               ---------------------------------------------------------------
@@ -9624,42 +9624,42 @@ Description : ---------------------------------------------------------------
               Memory mode          : Heap memory
               Builtin topics       : true
               Priority inheritance : false
-              SystemId             : 1069055548 from [1,2147483647]
+              SystemId             : 1976399594 from [1,2147483647]
 Node        : SC-201609211054
-Process     : node5.exe <16288>
-Thread      : spliced 32292
-Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/The OpenSplice domain service/u_domain.c/659/0/1541396454.051963000/0
+Process     : node4.exe <25292>
+Thread      : spliced 36412
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/The OpenSplice domain service/u_domain.c/659/0/1541396555.109601600/0
 ========================================================================================
 Report      : INFO
-Date        : Mon Nov 05 13:40:54 ?D1迆㊣那℅?那㊣?? 2018
+Date        : Mon Nov 05 13:42:35 ?D1迆㊣那℅?那㊣?? 2018
 Description : Service cmsoap disabled
 Node        : SC-201609211054
-Process     : node5.exe <16288>
-Thread      : spliced 32292
-Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/sr_componentInfo.c/447/0/1541396454.053273500/0
+Process     : node4.exe <25292>
+Thread      : spliced 36412
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/sr_componentInfo.c/447/0/1541396555.113636100/0
 ========================================================================================
 Report      : INFO
-Date        : Mon Nov 05 13:40:54 ?D1迆㊣那℅?那㊣?? 2018
+Date        : Mon Nov 05 13:42:35 ?D1迆㊣那℅?那㊣?? 2018
 Description : ++++++++++++++++++++++++++++++++++++++++++++++++
               ++ The service 'splicedaemon' is now operational. 
               ++++++++++++++++++++++++++++++++++++++++++++++++
 Node        : SC-201609211054
-Process     : node5.exe <16288>
-Thread      : spliced 32292
-Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/v_serviceChangeState/v_service.c/295/0/1541396454.056410100/0
+Process     : node4.exe <25292>
+Thread      : spliced 36412
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/v_serviceChangeState/v_service.c/295/0/1541396555.116845800/0
 ========================================================================================
 Report      : INFO
-Date        : Mon Nov 05 13:40:54 ?D1迆㊣那℅?那㊣?? 2018
+Date        : Mon Nov 05 13:42:35 ?D1迆㊣那℅?那㊣?? 2018
 Description : ++++++++++++++++++++++++++++++++++++++++++++++++
               ++ The service 'ddsi2' is now operational. 
               ++++++++++++++++++++++++++++++++++++++++++++++++
 Node        : SC-201609211054
-Process     : node5.exe <16288>
-Thread      : ddsi2 16276
-Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/v_serviceChangeState/v_service.c/295/0/1541396454.099217700/0
+Process     : node4.exe <25292>
+Thread      : ddsi2 42220
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/v_serviceChangeState/v_service.c/295/0/1541396555.148289300/0
 ========================================================================================
 Report      : INFO
-Date        : Mon Nov 05 13:46:20 ?D1迆㊣那℅?那㊣?? 2018
+Date        : Mon Nov 05 13:46:08 ?D1迆㊣那℅?那㊣?? 2018
 Description : ---------------------------------------------------------------
               -- The service is using the following configuration settings --
               ---------------------------------------------------------------
@@ -9671,42 +9671,42 @@ Description : ---------------------------------------------------------------
               Memory mode          : Heap memory
               Builtin topics       : true
               Priority inheritance : false
-              SystemId             : 1114085096 from [1,2147483647]
+              SystemId             : 1242906293 from [1,2147483647]
 Node        : SC-201609211054
-Process     : node5.exe <9832>
-Thread      : spliced 19660
-Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/The OpenSplice domain service/u_domain.c/659/0/1541396780.562802400/0
+Process     : node4.exe <20812>
+Thread      : spliced 25696
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/The OpenSplice domain service/u_domain.c/659/0/1541396768.493691000/0
 ========================================================================================
 Report      : INFO
-Date        : Mon Nov 05 13:46:20 ?D1迆㊣那℅?那㊣?? 2018
+Date        : Mon Nov 05 13:46:08 ?D1迆㊣那℅?那㊣?? 2018
 Description : Service cmsoap disabled
 Node        : SC-201609211054
-Process     : node5.exe <9832>
-Thread      : spliced 19660
-Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/sr_componentInfo.c/447/0/1541396780.563842700/0
+Process     : node4.exe <20812>
+Thread      : spliced 25696
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/sr_componentInfo.c/447/0/1541396768.494866000/0
 ========================================================================================
 Report      : INFO
-Date        : Mon Nov 05 13:46:20 ?D1迆㊣那℅?那㊣?? 2018
+Date        : Mon Nov 05 13:46:08 ?D1迆㊣那℅?那㊣?? 2018
 Description : ++++++++++++++++++++++++++++++++++++++++++++++++
               ++ The service 'splicedaemon' is now operational. 
               ++++++++++++++++++++++++++++++++++++++++++++++++
 Node        : SC-201609211054
-Process     : node5.exe <9832>
-Thread      : spliced 19660
-Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/v_serviceChangeState/v_service.c/295/0/1541396780.566905000/0
+Process     : node4.exe <20812>
+Thread      : spliced 25696
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/v_serviceChangeState/v_service.c/295/0/1541396768.498267800/0
 ========================================================================================
 Report      : INFO
-Date        : Mon Nov 05 13:46:20 ?D1迆㊣那℅?那㊣?? 2018
+Date        : Mon Nov 05 13:46:08 ?D1迆㊣那℅?那㊣?? 2018
 Description : ++++++++++++++++++++++++++++++++++++++++++++++++
               ++ The service 'ddsi2' is now operational. 
               ++++++++++++++++++++++++++++++++++++++++++++++++
 Node        : SC-201609211054
-Process     : node5.exe <9832>
-Thread      : ddsi2 22244
-Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/v_serviceChangeState/v_service.c/295/0/1541396780.603931500/0
+Process     : node4.exe <20812>
+Thread      : ddsi2 39668
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/v_serviceChangeState/v_service.c/295/0/1541396768.533475700/0
 ========================================================================================
 Report      : INFO
-Date        : Mon Nov 05 13:47:51 ?D1迆㊣那℅?那㊣?? 2018
+Date        : Mon Nov 05 13:47:57 ?D1迆㊣那℅?那㊣?? 2018
 Description : ---------------------------------------------------------------
               -- The service is using the following configuration settings --
               ---------------------------------------------------------------
@@ -9718,42 +9718,42 @@ Description : ---------------------------------------------------------------
               Memory mode          : Heap memory
               Builtin topics       : true
               Priority inheritance : false
-              SystemId             : 296326309 from [1,2147483647]
+              SystemId             : 292508336 from [1,2147483647]
 Node        : SC-201609211054
-Process     : node5.exe <4316>
-Thread      : spliced 31476
-Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/The OpenSplice domain service/u_domain.c/659/0/1541396871.023357700/0
+Process     : node4.exe <22100>
+Thread      : spliced 21344
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/The OpenSplice domain service/u_domain.c/659/0/1541396877.569690600/0
 ========================================================================================
 Report      : INFO
-Date        : Mon Nov 05 13:47:51 ?D1迆㊣那℅?那㊣?? 2018
+Date        : Mon Nov 05 13:47:57 ?D1迆㊣那℅?那㊣?? 2018
 Description : Service cmsoap disabled
 Node        : SC-201609211054
-Process     : node5.exe <4316>
-Thread      : spliced 31476
-Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/sr_componentInfo.c/447/0/1541396871.024735900/0
+Process     : node4.exe <22100>
+Thread      : spliced 21344
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/sr_componentInfo.c/447/0/1541396877.570788000/0
 ========================================================================================
 Report      : INFO
-Date        : Mon Nov 05 13:47:51 ?D1迆㊣那℅?那㊣?? 2018
+Date        : Mon Nov 05 13:47:57 ?D1迆㊣那℅?那㊣?? 2018
 Description : ++++++++++++++++++++++++++++++++++++++++++++++++
               ++ The service 'splicedaemon' is now operational. 
               ++++++++++++++++++++++++++++++++++++++++++++++++
 Node        : SC-201609211054
-Process     : node5.exe <4316>
-Thread      : spliced 31476
-Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/v_serviceChangeState/v_service.c/295/0/1541396871.028101600/0
+Process     : node4.exe <22100>
+Thread      : spliced 21344
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/v_serviceChangeState/v_service.c/295/0/1541396877.573993900/0
 ========================================================================================
 Report      : INFO
-Date        : Mon Nov 05 13:47:51 ?D1迆㊣那℅?那㊣?? 2018
+Date        : Mon Nov 05 13:47:57 ?D1迆㊣那℅?那㊣?? 2018
 Description : ++++++++++++++++++++++++++++++++++++++++++++++++
               ++ The service 'ddsi2' is now operational. 
               ++++++++++++++++++++++++++++++++++++++++++++++++
 Node        : SC-201609211054
-Process     : node5.exe <4316>
-Thread      : ddsi2 38816
-Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/v_serviceChangeState/v_service.c/295/0/1541396871.060141600/0
+Process     : node4.exe <22100>
+Thread      : ddsi2 36680
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/v_serviceChangeState/v_service.c/295/0/1541396877.605252300/0
 ========================================================================================
 Report      : INFO
-Date        : Mon Nov 05 13:51:59 ?D1迆㊣那℅?那㊣?? 2018
+Date        : Mon Nov 05 13:51:49 ?D1迆㊣那℅?那㊣?? 2018
 Description : ---------------------------------------------------------------
               -- The service is using the following configuration settings --
               ---------------------------------------------------------------
@@ -9765,42 +9765,42 @@ Description : ---------------------------------------------------------------
               Memory mode          : Heap memory
               Builtin topics       : true
               Priority inheritance : false
-              SystemId             : 415827758 from [1,2147483647]
+              SystemId             : 939218229 from [1,2147483647]
 Node        : SC-201609211054
-Process     : node5.exe <24348>
-Thread      : spliced 37040
-Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/The OpenSplice domain service/u_domain.c/659/0/1541397119.570421700/0
+Process     : node4.exe <26696>
+Thread      : spliced 24924
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/The OpenSplice domain service/u_domain.c/659/0/1541397109.456652200/0
 ========================================================================================
 Report      : INFO
-Date        : Mon Nov 05 13:51:59 ?D1迆㊣那℅?那㊣?? 2018
+Date        : Mon Nov 05 13:51:49 ?D1迆㊣那℅?那㊣?? 2018
 Description : Service cmsoap disabled
 Node        : SC-201609211054
-Process     : node5.exe <24348>
-Thread      : spliced 37040
-Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/sr_componentInfo.c/447/0/1541397119.571614400/0
+Process     : node4.exe <26696>
+Thread      : spliced 24924
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/sr_componentInfo.c/447/0/1541397109.457734000/0
 ========================================================================================
 Report      : INFO
-Date        : Mon Nov 05 13:51:59 ?D1迆㊣那℅?那㊣?? 2018
+Date        : Mon Nov 05 13:51:49 ?D1迆㊣那℅?那㊣?? 2018
 Description : ++++++++++++++++++++++++++++++++++++++++++++++++
               ++ The service 'splicedaemon' is now operational. 
               ++++++++++++++++++++++++++++++++++++++++++++++++
 Node        : SC-201609211054
-Process     : node5.exe <24348>
-Thread      : spliced 37040
-Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/v_serviceChangeState/v_service.c/295/0/1541397119.574999300/0
+Process     : node4.exe <26696>
+Thread      : spliced 24924
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/v_serviceChangeState/v_service.c/295/0/1541397109.461031100/0
 ========================================================================================
 Report      : INFO
-Date        : Mon Nov 05 13:51:59 ?D1迆㊣那℅?那㊣?? 2018
+Date        : Mon Nov 05 13:51:49 ?D1迆㊣那℅?那㊣?? 2018
 Description : ++++++++++++++++++++++++++++++++++++++++++++++++
               ++ The service 'ddsi2' is now operational. 
               ++++++++++++++++++++++++++++++++++++++++++++++++
 Node        : SC-201609211054
-Process     : node5.exe <24348>
-Thread      : ddsi2 19984
-Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/v_serviceChangeState/v_service.c/295/0/1541397119.606505200/0
+Process     : node4.exe <26696>
+Thread      : ddsi2 36460
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/v_serviceChangeState/v_service.c/295/0/1541397109.493008700/0
 ========================================================================================
 Report      : INFO
-Date        : Mon Nov 05 13:59:17 ?D1迆㊣那℅?那㊣?? 2018
+Date        : Mon Nov 05 13:59:31 ?D1迆㊣那℅?那㊣?? 2018
 Description : ---------------------------------------------------------------
               -- The service is using the following configuration settings --
               ---------------------------------------------------------------
@@ -9812,42 +9812,42 @@ Description : ---------------------------------------------------------------
               Memory mode          : Heap memory
               Builtin topics       : true
               Priority inheritance : false
-              SystemId             : 2009409986 from [1,2147483647]
+              SystemId             : 1731393628 from [1,2147483647]
 Node        : SC-201609211054
-Process     : node5.exe <36212>
-Thread      : spliced 32736
-Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/The OpenSplice domain service/u_domain.c/659/0/1541397557.279257100/0
+Process     : node4.exe <10944>
+Thread      : spliced 42204
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/The OpenSplice domain service/u_domain.c/659/0/1541397571.082951200/0
 ========================================================================================
 Report      : INFO
-Date        : Mon Nov 05 13:59:17 ?D1迆㊣那℅?那㊣?? 2018
+Date        : Mon Nov 05 13:59:31 ?D1迆㊣那℅?那㊣?? 2018
 Description : Service cmsoap disabled
 Node        : SC-201609211054
-Process     : node5.exe <36212>
-Thread      : spliced 32736
-Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/sr_componentInfo.c/447/0/1541397557.280632000/0
+Process     : node4.exe <10944>
+Thread      : spliced 42204
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/sr_componentInfo.c/447/0/1541397571.084168900/0
 ========================================================================================
 Report      : INFO
-Date        : Mon Nov 05 13:59:17 ?D1迆㊣那℅?那㊣?? 2018
+Date        : Mon Nov 05 13:59:31 ?D1迆㊣那℅?那㊣?? 2018
 Description : ++++++++++++++++++++++++++++++++++++++++++++++++
               ++ The service 'splicedaemon' is now operational. 
               ++++++++++++++++++++++++++++++++++++++++++++++++
 Node        : SC-201609211054
-Process     : node5.exe <36212>
-Thread      : spliced 32736
-Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/v_serviceChangeState/v_service.c/295/0/1541397557.283879400/0
+Process     : node4.exe <10944>
+Thread      : spliced 42204
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/v_serviceChangeState/v_service.c/295/0/1541397571.087884000/0
 ========================================================================================
 Report      : INFO
-Date        : Mon Nov 05 13:59:17 ?D1迆㊣那℅?那㊣?? 2018
+Date        : Mon Nov 05 13:59:31 ?D1迆㊣那℅?那㊣?? 2018
 Description : ++++++++++++++++++++++++++++++++++++++++++++++++
               ++ The service 'ddsi2' is now operational. 
               ++++++++++++++++++++++++++++++++++++++++++++++++
 Node        : SC-201609211054
-Process     : node5.exe <36212>
-Thread      : ddsi2 30048
-Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/v_serviceChangeState/v_service.c/295/0/1541397557.315670600/0
+Process     : node4.exe <10944>
+Thread      : ddsi2 42592
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/v_serviceChangeState/v_service.c/295/0/1541397571.120052500/0
 ========================================================================================
 Report      : INFO
-Date        : Mon Nov 05 14:04:14 ?D1迆㊣那℅?那㊣?? 2018
+Date        : Mon Nov 05 14:04:01 ?D1迆㊣那℅?那㊣?? 2018
 Description : ---------------------------------------------------------------
               -- The service is using the following configuration settings --
               ---------------------------------------------------------------
@@ -9859,36 +9859,83 @@ Description : ---------------------------------------------------------------
               Memory mode          : Heap memory
               Builtin topics       : true
               Priority inheritance : false
-              SystemId             : 1913303718 from [1,2147483647]
+              SystemId             : 1116228058 from [1,2147483647]
 Node        : SC-201609211054
-Process     : node5.exe <40596>
-Thread      : spliced 1988
-Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/The OpenSplice domain service/u_domain.c/659/0/1541397854.412069000/0
+Process     : node4.exe <7980>
+Thread      : spliced 3576
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/The OpenSplice domain service/u_domain.c/659/0/1541397841.177903300/0
 ========================================================================================
 Report      : INFO
-Date        : Mon Nov 05 14:04:14 ?D1迆㊣那℅?那㊣?? 2018
+Date        : Mon Nov 05 14:04:01 ?D1迆㊣那℅?那㊣?? 2018
 Description : Service cmsoap disabled
 Node        : SC-201609211054
-Process     : node5.exe <40596>
-Thread      : spliced 1988
-Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/sr_componentInfo.c/447/0/1541397854.413360600/0
+Process     : node4.exe <7980>
+Thread      : spliced 3576
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/sr_componentInfo.c/447/0/1541397841.178902200/0
 ========================================================================================
 Report      : INFO
-Date        : Mon Nov 05 14:04:14 ?D1迆㊣那℅?那㊣?? 2018
+Date        : Mon Nov 05 14:04:01 ?D1迆㊣那℅?那㊣?? 2018
 Description : ++++++++++++++++++++++++++++++++++++++++++++++++
               ++ The service 'splicedaemon' is now operational. 
               ++++++++++++++++++++++++++++++++++++++++++++++++
 Node        : SC-201609211054
-Process     : node5.exe <40596>
-Thread      : spliced 1988
-Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/v_serviceChangeState/v_service.c/295/0/1541397854.417145500/0
+Process     : node4.exe <7980>
+Thread      : spliced 3576
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/v_serviceChangeState/v_service.c/295/0/1541397841.182372900/0
 ========================================================================================
 Report      : INFO
-Date        : Mon Nov 05 14:04:14 ?D1迆㊣那℅?那㊣?? 2018
+Date        : Mon Nov 05 14:04:01 ?D1迆㊣那℅?那㊣?? 2018
 Description : ++++++++++++++++++++++++++++++++++++++++++++++++
               ++ The service 'ddsi2' is now operational. 
               ++++++++++++++++++++++++++++++++++++++++++++++++
 Node        : SC-201609211054
-Process     : node5.exe <40596>
-Thread      : ddsi2 8740
-Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/v_serviceChangeState/v_service.c/295/0/1541397854.453756200/0
+Process     : node4.exe <7980>
+Thread      : ddsi2 38476
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/v_serviceChangeState/v_service.c/295/0/1541397841.222832500/0
+========================================================================================
+Report      : INFO
+Date        : Mon Nov 05 14:13:02 ?D1迆㊣那℅?那㊣?? 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 0 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+              SystemId             : 235766164 from [1,2147483647]
+Node        : SC-201609211054
+Process     : node4.exe <39312>
+Thread      : spliced 25828
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/The OpenSplice domain service/u_domain.c/659/0/1541398382.701600600/0
+========================================================================================
+Report      : INFO
+Date        : Mon Nov 05 14:13:02 ?D1迆㊣那℅?那㊣?? 2018
+Description : Service cmsoap disabled
+Node        : SC-201609211054
+Process     : node4.exe <39312>
+Thread      : spliced 25828
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/OpenSplice domain service/sr_componentInfo.c/447/0/1541398382.703094200/0
+========================================================================================
+Report      : INFO
+Date        : Mon Nov 05 14:13:02 ?D1迆㊣那℅?那㊣?? 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : SC-201609211054
+Process     : node4.exe <39312>
+Thread      : spliced 25828
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/v_serviceChangeState/v_service.c/295/0/1541398382.707310500/0
+========================================================================================
+Report      : INFO
+Date        : Mon Nov 05 14:13:02 ?D1迆㊣那℅?那㊣?? 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : SC-201609211054
+Process     : node4.exe <39312>
+Thread      : ddsi2 19924
+Internals   : 6.7.180404OSS/de8c6f4f/de8c6f4f/v_serviceChangeState/v_service.c/295/0/1541398382.752064800/0
