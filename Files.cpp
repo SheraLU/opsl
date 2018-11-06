@@ -25,27 +25,24 @@ void Files::save()
 	string filename = "code//" + this->name.toStdString() + "_" + this->tm.toStdString() + ".txt";
 	//string filename = this->name.toStdString() + "_" + this->tm.toStdString() + ".txt";
 	outfile.open(filename); //创建、打开文件
-	QMessageBox::about(NULL, "成功", QString::fromStdString(filename));
-	// outfile<<this->owner.toStdString()<<endl;
-	//outfile<<this->tm.toStdString()<<endl;
+							// outfile<<this->owner.toStdString()<<endl;
+							//outfile<<this->tm.toStdString()<<endl;
 
 	outfile << words.toStdString() << endl;
 
 	outfile.close(); //关闭文件
-	QMessageBox::about(NULL, "成功", "代码上传成功!");
-	
+
 }
 
 void Files::get() {
 	fstream in;
-	in.open("code//"+this->fname.toStdString()+".txt");//打开文件
-												 //逐行读取
+	in.open("code//" + this->fname.toStdString());//打开文件
 	string str;
 	string code = "";
 	int i = 0;
 	while (getline(in, str))
 	{
-		code += str;
+		code += str + "\n";
 		i++;
 	}
 	this->words = QString::fromStdString(code);

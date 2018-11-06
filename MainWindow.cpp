@@ -131,8 +131,9 @@ void MainWindow::on_person_lw_itemClicked(QListWidgetItem *item)//向指定对象发送
 void MainWindow::on_update_clicked()
 {
 	Files * c = new Files(ui->user_ip->text(), ui->title->document()->toPlainText(), ui->code->document()->lineCount());
-	for (int i = 0; i<c->linenum; i++) {
-		c->words += ui->code->document()->findBlockByLineNumber(i).text();
-	}
+	c->words = ui->code->toPlainText();
 	c->save();
+	ui->stackedWidget->setCurrentIndex(1);
+	ch->getfiles("node2");
+	ch->show();
 }
