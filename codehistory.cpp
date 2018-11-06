@@ -40,12 +40,10 @@ void CodeHistory::on_uptime_itemClicked(QListWidgetItem *item)
 	{
 		if (flag) 
 		{
-			string word;
-			fstream filein;
-			filein.open(".\\code\\"+item->text().toStdString(), ios::in);
-			filein >> word;
-			ui->code->setText(QString::fromStdString(word));
-			//ui->code->setText("导入失败");
+			Files* f = new Files("", "", 0);
+			f->fname = item->text();
+			f->get();
+			ui->code->setText(f->words);
 		}
 		else
 		{
@@ -90,6 +88,7 @@ void getFiles(string path, vector<string>& files)
 
 //获取消息队列中的信息
 void CodeHistory::getfiles(QString ip){
+	ui->uptime->clear();
 	flag = 0;
     QStringList times;
 	QString time;
@@ -138,6 +137,5 @@ void CodeHistory::getfiles(QString ip){
 		qDebug("time is null");
 		times.append("NULL");
 	}
-	ui->uptime->clear();
 	ui->uptime->insertItems(1,times);
 }

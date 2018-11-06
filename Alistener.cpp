@@ -64,11 +64,10 @@ THROW_ORB_EXCEPTIONS
 				int size = fs.size();
 				for (int i = 0; i < size; i++)
 				{
-					string word;
-					fstream filein;
-					filein.open(".\\code\\" + fs[i], ios::in);
-					filein >> word;
-					ASendCode.pubMsg(3,fs[i].data(), "time", word.data());//发送本地代码
+					Files* f = new Files("", "", 0);
+					f->fname = QString::fromStdString(fs[i]);
+					f->get();
+					ASendCode.pubMsg(3, fs[i].data(), "time", f->words.toStdString().data());//发送本地代码
 				}
 				ASendCode.endDelete();
 			}
