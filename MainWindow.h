@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 #include <QMainWindow>
 #include <codehistory.h>
+#include <person.h>
 #include <iostream>
 #include <Files.h>
 

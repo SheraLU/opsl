@@ -41,60 +41,61 @@ THROW_ORB_EXCEPTIONS
 	printf("=== [ListenerDataListener::on_data_available] - msgList.length : %d\n", msgList.length());
 	for (DDS::ULong j = 0; j < msgList.length(); j++)
 	{
-		int id = msgList[j].coderID;
 		string time = msgList[j].uploadTime;
+		int id = msgList[j].coderID;
 		if (time.compare("-1") == 0)//收到请求【设定时间为-1的消息为请求】
 		{
 			reusePub ASendCode;
-			if (msgList[j].coderID < 6&& msgList[j].coderID > 4)
+			if (msgList[j].coderID < 2)
 				cout << "当前节点" << endl;
 			else 
 			{
-				if (msgList[j].coderID <2 )//默认当前节点为1，后续根据用户更改
-					ASendCode.createConnection("AE", "msgae");
-				else if (msgList[j].coderID <3)
-					ASendCode.createConnection("BE", "msgbe");
+				if (msgList[j].coderID <3 )//默认当前节点为1，后续根据用户更改
+					ASendCode.createConnection("AB", "msgab");
 				else if (msgList[j].coderID <4)
-					ASendCode.createConnection("CE", "msgce");
+					ASendCode.createConnection("AC", "msgac");
 				else if (msgList[j].coderID <5)
-					ASendCode.createConnection("DE", "msgde");
+					ASendCode.createConnection("AD", "msgad");
+				else if (msgList[j].coderID <6)
+					ASendCode.createConnection("AE", "msgae");
 				vector<string> fs;
-				/*本机地址*/
-				getAllFiles("D:\\materials\\TISHE\\HDE\\x86_64.win64\\opslTest\\CodeManagerTest\\node5\\code", fs);
+				getAllFiles("D:\\materials\\TISHE\\HDE\\x86_64.win64\\opslTest\\CodeManagerTest\\CodeManager\\code", fs);
 				char str[100];
 				int size = fs.size();
 				for (int i = 0; i < size; i++)
 				{
-					string word;
-					fstream filein;
-					filein.open(".\\code\\" + fs[i], ios::in);
-					filein >> word;
-					ASendCode.pubMsg(5,fs[i].data(), "time", word.data());//发送本地代码
+					Files* f = new Files("", "", 0);
+					f->fname = QString::fromStdString(fs[i]);
+					f->get();
+					ASendCode.pubMsg(1, fs[i].data(), "time", f->words.toStdString().data());//发送本地代码
 				}
 				ASendCode.endDelete();
 			}
 		}
 		else//收到代码
 		{
-			if(msgList[j].coderID < 6 && msgList[j].coderID > 4)
+			if (msgList[j].coderID < 2)
 				cout << "当前节点" << endl;
 			else
 			{
-				if (id < 2)//1
+				if (id < 3)
 					i->msgListB.push_back(msgList[j]);
-				else if (id < 3)//2
+				else if (id < 4)
 					i->msgListC.push_back(msgList[j]);
-				else if (id < 4)//3
+				else if (id < 5)
 					i->msgListD.push_back(msgList[j]);
-				else if (id < 5)//4
+				else if (id < 6)
 					i->msgListE.push_back(msgList[j]);
 				else
 					cout << "Wrong Puber" << endl;
 				window.ch->getfiles("node" + QString::number(id));
 			}
+			string filen= msgList[j].fileName;
+			string cont = msgList[j].codeContent;
 			printf("\n    --- message received ---\n");
 			printf("\n    userID  : %d\n", msgList[j].coderID);
-			cout << "   Message :" << msgList[j].codeContent << endl;
+			printf("\n    fileName  : %d\n", filen);
+			cout << "   Message :" << cont << endl;
 		}
 	}
 	//status = m_MsgReader->return_loan(msgList, infoSeq);

@@ -16,7 +16,7 @@ CodeHistory::CodeHistory(QWidget *parent,QString person_ip) :
     ui->setupUi(this);
 	flag = 0;
 	/*根据节点改变*/
-	getfiles("node5");
+	getfiles("node1");
 
     setWindowFlags(Qt::CustomizeWindowHint|Qt::FramelessWindowHint);hide();
     this->setAttribute(Qt::WA_StyledBackground,true);
@@ -40,12 +40,17 @@ void CodeHistory::on_uptime_itemClicked(QListWidgetItem *item)
 	{
 		if (flag) 
 		{
-			string word;
+			/*string word;
 			fstream filein;
 			filein.open(".\\code\\"+item->text().toStdString(), ios::in);
 			filein >> word;
-			ui->code->setText(QString::fromStdString(word));
+			ui->code->setText(QString::fromStdString(word));*/
 			//ui->code->setText("导入失败");
+			Files* f = new Files("","",0);
+			f->fname = item->text();
+			f->get();
+			ui->code->setText(f->words);
+
 		}
 		else
 		{
@@ -90,38 +95,38 @@ void getFiles(string path, vector<string>& files)
 
 //获取消息队列中的信息
 void CodeHistory::getfiles(QString ip){
+	ui->uptime->clear();
 	flag = 0;
     QStringList times;
 	QString time;
 	auto i = Luxijun::getInstance();
 	qDebug("getFiles %s", qPrintable(ip));
-	if (ip.compare("node5") == 0)
+	if (ip.compare("node1") == 0)
 	{
 		flag = 1;
 		vector<string> fs;
-		/*本机地址*/
-		getFiles("D:\\materials\\TISHE\\HDE\\x86_64.win64\\opslTest\\CodeManagerTest\\node5\\code", fs);
+		getFiles("D:\\materials\\TISHE\\HDE\\x86_64.win64\\opslTest\\CodeManagerTest\\CodeManager\\code", fs);
 		char str[100];
 		int size = fs.size();
 		for (int i = 0; i < size; i++)
 			times.append(fs[i].c_str());
 	}
-	else if (ip.compare("node1")==0) 
+	else if (ip.compare("node2")==0) 
 	{
 		history =i->msgListB;
 		cout << "Bsize:" << i->msgListB.size() << endl;
 	}
-	else if (ip.compare("node2") == 0)
+	else if (ip.compare("node3") == 0)
 	{
 		history = i->msgListC;
 		cout << "Csize:" << i->msgListC.size() << endl;
 	}
-	else if (ip.compare("node3") == 0)
+	else if (ip.compare("node4") == 0)
 	{
 		history = i->msgListD;
 		cout << "Dsize:" << i->msgListD.size() << endl;
 	}
-	else if (ip.compare("node4") == 0)
+	else if (ip.compare("node5") == 0)
 	{
 		history = i->msgListE;
 		cout << "Esize:" << i->msgListE.size() << endl;
@@ -137,6 +142,5 @@ void CodeHistory::getfiles(QString ip){
 		qDebug("time is null");
 		times.append("NULL");
 	}
-	ui->uptime->clear();
 	ui->uptime->insertItems(1,times);
 }
